@@ -12,8 +12,14 @@
 
     "applications": {
         "gecko": {
-            "id": "asdf@gmail.com"
+            "id": "AmazonEnhancer@protonmail.com"
         }
+    },
+
+    "browser_action": {
+        "default_icon": "icon-32.png",
+        "default_title": "Amazon Enhancer",
+        "default_popup": "popup/menu.html"
     },
 
 
