@@ -1,8 +1,8 @@
-#AmazonEnhancer
+# AmazonEnhancer
 Webextension for improving your Amazon experience
 
 
-#TODO
+# TODO
 - scratch design to get audience, then hire ux
 - fetch item price history, sales rank
 - include links to recommened items
