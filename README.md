@@ -5,6 +5,7 @@ Webextension for improving your Amazon experience
 # TODO
 - scratch design to get audience, then hire ux
 - fetch item price history, sales rank
+- more theme options
 - include links to recommened items
 - remove amazon excess content/ads
 - hide fake/suspricious reviews (fakespot or regex)

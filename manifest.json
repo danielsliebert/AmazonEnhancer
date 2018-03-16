@@ -22,6 +22,10 @@
         "default_popup": "popup/menu.html"
     },
 
+    "web_accessible_resources": [
+        "allblack.css",
+        "darkslate.css"
+    ],
 
     "content_scripts": [{
         "matches": ["*://*.amazon.com/*"],
