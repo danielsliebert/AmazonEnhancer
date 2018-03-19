@@ -1,15 +1,11 @@
-/* if (nightMode == true) 
-
-
-
-if (feature == true)
-    load feature.js
+/* if (clean == true)
+ * load clean.js
 
 switch (theme)
     theme=  ""
 */
 
-var theme = "allblack.css"
+var theme = "dark.css"
 
 document.addEventListener('DOMSubtreeModified', injectCSS, false);
 
@@ -24,3 +20,4 @@ function injectCSS() {
         document.getElementsByTagName("head")[0].appendChild(link);
     }
 }
+

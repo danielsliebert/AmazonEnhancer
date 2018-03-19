@@ -6,8 +6,8 @@
     "description": "Enhances Amazon shopping experience",
 
     "icons": {
-        "48": "icon-48.png",
-        "96": "icon-96.png"
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png"
     },
 
     "applications": {
@@ -17,18 +17,25 @@
     },
 
     "browser_action": {
-        "default_icon": "icon-32.png",
+        "default_icon": "icons/icon-32.png",
         "default_title": "Amazon Enhancer",
         "default_popup": "popup/menu.html"
     },
 
     "web_accessible_resources": [
-        "allblack.css",
-        "darkslate.css"
+        "css/black.css",
+        "css/clean.css",
+        "css/dark.css"
     ],
+
+    "options_ui": {
+        "page": "options.html"
+    },
+
+    "permissions": ["storage"],
 
     "content_scripts": [{
         "matches": ["*://*.amazon.com/*"],
-        "js": ["enhancer.js"]
+        "js": ["js/enhancer.js"]
     }]
 }
