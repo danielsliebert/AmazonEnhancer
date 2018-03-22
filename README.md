@@ -1,4 +1,4 @@
-# AmazonEnhancer
+# AmazonEnhancer 0.2
 Webextension for improving your Amazon experience!
 
 # FEATURES

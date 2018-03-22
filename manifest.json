@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "Amazon Enhancer",
-    "version": "0.1",
+    "version": "0.2",
 
-    "description": "Enhances Amazon shopping experience",
+    "description": "Enhances Amazon shopping experience!",
 
     "icons": {
         "48": "icons/icon-48.png",
