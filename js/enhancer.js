@@ -1,5 +1,8 @@
-if (clean == true)
-    load clean.js
+function loadDarkTheme() {
+    if (browser.storage.local.get("theme"))
 
-if (theme == true)
-    load feature.js 
+
+}
+
+document.addEventListener("DOMContentLoaded", restoreOptions);
+document.querySelector("form").addEventListener("submit", saveOptions);
