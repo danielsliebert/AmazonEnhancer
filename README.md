@@ -1,20 +1,17 @@
 # AmazonEnhancer
-Webextension for improving your Amazon experience
+Webextension for improving your Amazon experience!
 
+# FEATURES
+- Dark/Night mode
+- Clean up Amazon
 
-# TODO
-- scratch design to get audience, then hire ux
-- fetch item price history, sales rank
-- more theme options
-- include links to recommened items
-- remove amazon excess content/ads
-- hide fake/suspricious reviews (fakespot or regex)
-- night mode
-- goodreads ratings on books
-- warn user if item is supicious (high unverfied to verified ratio)
-- multi language support
-- multi domain support
-- outsource icon design
-- market outreach
-- apply referall link
+# PLANNED
+- More themes
+- Improved item descriptions
+- Remove fake/suspicious reviews (fakespot/regex)
+- Detect suspicious items (high unverfied to verified review ratio)
+- Support more domains
+- Goodreads rating with books
+- Applied referall link
+- Improved icon
 

@@ -1,23 +1,28 @@
 function saveOptions(e) {
     e.preventDefault();
     browser.storage.local.set({
-        theme: document.querySelector("#theme").checked
+        dark: document.querySelector("#dark").checked,
+        clean: document.querySelector("#clean").checked
     });
 }
 
 function restoreOptions() {
 
 
-    function setCurrentChoice(result) {
-        document.querySelector("#theme").checked = result.theme || false;
+    function restoreDark(result) {
+        document.querySelector("#dark").checked = result.dark || false;
+    }
+
+    function restoreClean(result) {
+        document.querySelector("#clean").checked = result.clean || false;
     }
 
     function onError(error) {
         console.log(`Error: ${error}`);
     }
 
-    var getting = browser.storage.local.get("theme");
-    getting.then(setCurrentChoice, onError);
+    browser.storage.local.get("dark").then(restoreDark, onError);
+    browser.storage.local.get("clean").then(restoreClean, onError);
 }
 
 document.addEventListener("DOMContentLoaded", restoreOptions);

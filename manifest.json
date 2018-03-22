@@ -23,7 +23,6 @@
     },
 
     "web_accessible_resources": [
-        "css/black.css",
         "css/clean.css",
         "css/dark.css"
     ],
