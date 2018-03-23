@@ -6,6 +6,8 @@ Webextension for improving your Amazon experience!
 - Clean up Amazon
 
 # PLANNED
+- Live settings implication
+- Speed up theme application
 - More themes
 - Improved item descriptions
 - Remove fake/suspicious reviews (fakespot/regex)
