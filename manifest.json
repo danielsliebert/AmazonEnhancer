@@ -36,6 +36,8 @@
 
     "content_scripts": [{
         "matches": ["*://*.amazon.com/*"],
-        "js": ["js/enhancer.js"]
+        "js": ["js/enhancer.js"],
+        "run_at": "document_start",
+        "all_frames": true
     }]
 }
