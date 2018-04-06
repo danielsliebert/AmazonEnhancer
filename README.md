@@ -1,4 +1,4 @@
-# AmazonEnhancer 0.2
+# AmazonEnhancer 0.3
 Webextension for improving your Amazon experience!
 
 # FEATURES
@@ -6,8 +6,6 @@ Webextension for improving your Amazon experience!
 - Clean up Amazon
 
 # PLANNED
-- Live settings implication
-- Speed up theme application
 - More themes
 - Improved item descriptions
 - Remove fake/suspicious reviews (fakespot/regex)
@@ -15,5 +13,5 @@ Webextension for improving your Amazon experience!
 - Support more domains
 - Goodreads rating with books
 - Applied referall link
-- Improved icon
-
+- Improved icons
+- Live settings implication
