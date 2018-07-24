@@ -11,7 +11,7 @@ Webextension for improving your Amazon experience!
 - Remove fake/suspicious reviews (fakespot/regex)
 - Detect suspicious items (high unverfied to verified review ratio)
 - Support more domains
-- Goodreads rating with books
+- Goodreads link, rating with books
 - Applied referall link
 - Improved icons
 - Live settings implication
